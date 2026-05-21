@@ -20,7 +20,3 @@ static int Fibonacci(int n)
 
     return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
-
-
-string result = GenerateFibonacciSequence(10);
-Console.WriteLine(result);
